@@ -25,6 +25,7 @@ let s:gui.none       = { 'dark': 'NONE',    'light': 'NONE',    'palenight': 'NO
 let s:gui.selection  = { 'dark': '#455A64', 'light': '#CCEAE7', 'palenight': '#434A6C', 'oceanic': '#292D3E'  }
 let s:gui.line       = { 'dark': '#212121', 'light': '#EAEFF0', 'palenight': '#191919', 'oceanic': '#191919'  }
 let s:gui.comment    = { 'dark': '#1874CD', 'light': '#90A4AE', 'palenight': '#676E95', 'oceanic': '#525975'  }
+let s:gui.type       = { 'dark': '#EEAD0E', 'light': '#FF9913', 'palenight': '#FFCB6B', 'oceanic': '#FFCB6B'  }
 
 let s:gui.red          = { 'dark': '#FF5370', 'light': '#E53935', 'palenight': '#FF5370', 'oceanic': '#FF5370'  }
 let s:gui.pink         = { 'dark': '#F07178', 'light': '#FF5370', 'palenight': '#F07178', 'oceanic': '#F07178'  }
@@ -131,7 +132,7 @@ call s:hi("String",      s:gui.green,      "",               "", "", "")
 call s:hi("Normal",      s:gui.foreground, s:gui.background, "", "", "")
 call s:hi("Visual",      "",               s:gui.selection,  "", "", "")
 call s:hi("Constant",    s:gui.pink,       "",               "", "", "")
-call s:hi("Type",        s:gui.yellow,     "",               "", "", "none")
+call s:hi("Type",        s:gui.type,     "",               "", "", "none")
 call s:hi("Define",      s:gui.cyan,       "",               "", "", "")
 call s:hi("Statement",   s:gui.cyan,       "",               "", "", "none")
 call s:hi("Function",    s:gui.blue,       "",               "", "", "")

@@ -27,6 +27,7 @@ let s:gui.line       = { 'dark': '#212121', 'light': '#EAEFF0', 'palenight': '#1
 let s:gui.comment    = { 'dark': '#1874CD', 'light': '#90A4AE', 'palenight': '#676E95', 'oceanic': '#525975'  }
 let s:gui.type       = { 'dark': '#EEAD0E', 'light': '#FF9913', 'palenight': '#FFCB6B', 'oceanic': '#FFCB6B'  }
 let s:gui.identifier = { 'dark': '#C792EA', 'light': '#7C4DFF', 'palenight': '#C792EA', 'oceanic': '#C792EA'  }
+let s:gui.string     = { 'dark': '#8FBC8F', 'light': '#82A550', 'palenight': '#C3E88D', 'oceanic': '#C3E88D'  }
 
 let s:gui.red          = { 'dark': '#FF5370', 'light': '#E53935', 'palenight': '#FF5370', 'oceanic': '#FF5370'  }
 let s:gui.pink         = { 'dark': '#F07178', 'light': '#FF5370', 'palenight': '#F07178', 'oceanic': '#F07178'  }
@@ -129,7 +130,7 @@ call s:hi("helpExample", s:gui.blue,       "",               "", "", "")
 call s:hi("MatchParen",  "",               s:gui.selection,  "", "", "")
 call s:hi("Title",       s:gui.cyan,       "",               "", "", "")
 call s:hi("Comment",     s:gui.comment,    "",               "", "", "italic")
-call s:hi("String",      s:gui.green,      "",               "", "", "")
+call s:hi("String",      s:gui.string,      "",               "", "", "")
 call s:hi("Normal",      s:gui.foreground, s:gui.background, "", "", "")
 call s:hi("Visual",      "",               s:gui.selection,  "", "", "")
 call s:hi("Constant",    s:gui.pink,       "",               "", "", "")
